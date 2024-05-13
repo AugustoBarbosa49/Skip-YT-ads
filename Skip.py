@@ -30,7 +30,7 @@ while position != (0,0):
         n += 1
         print("Skipped another one!")
     except:
-        time.sleep(0.5)
+        time.sleep(0.2)
 
     position = pgui.position()
 
